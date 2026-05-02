@@ -8,3 +8,13 @@ const userTaskList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
+userTaskList[4]= {id: 5, task: "Walk the dog"}
+
+console.log(userTaskList)
+
+userTaskList.pop()
+console.log(userTaskList)
+
+const lastTask = userTaskList[userTaskList.length-1]
+
+console.log(lastTask)

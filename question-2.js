@@ -8,10 +8,11 @@ const userTaskList = [
 ];
 
 // เริ่มเขียนโค้ดตรงนี้
-userTaskList[4]= {id: 5, task: "Walk the dog"}
+userTaskList[4] = {id: 5, task: "Walk the dog"}
 
 console.log(userTaskList)
 
+userTaskList[3].task = "Go to the gym"
 userTaskList.pop()
 console.log(userTaskList)
 
